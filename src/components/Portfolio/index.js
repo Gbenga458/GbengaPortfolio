@@ -39,7 +39,7 @@ function Portfolio() {
      },
      {
         name: 'Product Landing Page',
-        description: 'This product landing page is a web page designed to promote or sell a thrombone',
+        description: 'This product landing page is a web page designed to promote or sell a Trumpet',
         github: 'https://gbenga458.github.io/product-landing-page1/',
         image: '6',
         uses: 'HTML and CSS'
