@@ -3,52 +3,46 @@ import React from "react";
 function Portfolio() {
  const projects = [
      {
-        name: 'Deep Thoughts',
-        description: 'A MongoDB social media site build with React. Create an account with a phony email and post a thought of your own!',
-        github: 'https://github.com/marcusikegami/deep-thoughts',
-        livelink: 'https://sheltered-garden-29890.herokuapp.com/',
+        name: 'Shopping Cart',
+        description: 'A shopping cart that can add and remove product, it can also automatically calculate the price of selected items aswell as deduct the price of removed item ',
+        github: 'https://gbenga458.github.io/React-Cart/',
         image: '1',
-        uses: 'React, React DOM, Apollo Server Express.js, Mongoose, GraphQL'
+        uses: 'MERN Stack'
      },
      {
-        name: 'BreakRoom Blogsite',
-        description: 'blogsite web-application that allows users to: Create an account, Make/Edit/Delete posts, comment on posts, view their post profile, and login/logout from the site. Its structured using RESTful API guidelines and makes use of the browsers fetch() API. ',
-        github: 'https://github.com/marcusikegami/breakroom-blogsite',
-        livelink: 'https://arcane-spire-94418.herokuapp.com/',
+        name: 'Grocery Bud',
+        description: 'in This app, you can enter any product you want and it will be added to your grocery store, you can edit as well as remove',
+        github: ' https://gbenga458.github.io/Grocery-React-Project/',
         image: '2',
-        uses: 'Bcrypt, MySQL2, Sequelize, Handlebars.js, node.js'
+        uses: 'MERN stack'
      },
      {
-        name: 'Book Search Engine',
-        description: "Fully functional book search engine that uses Google's Book API to search for books using a search query. The back end was originally set up following RESTful API construction but altered to utilize ApolloServer/Client/GraphQL to allow a user to create an account and save/delete books.",
-        github: 'https://github.com/marcusikegami/book-search-engine',
-        livelink: 'https://cryptic-shelf-81985.herokuapp.com/',
+        name: 'MENU search bar for supermarket',
+        description: "This App enables customers to view and segregate their preferred item with price",
+        github: 'https://gbenga458.github.io/Menu-React-App/',
         image: '3',
-        uses: 'Mongoose, ApolloServer/Client, GraphQL, React.js/Redux,'
+        uses: 'MERN'
      },
      {
-        name: 'Phone Number Capture Using JavaScript Regular Expressions',
-        description: 'Demonstration of my ability to notate and describe code: This tutorial describes how to match and return the digits from various phone number formats using JavaScript Regular Expression syntax.',
-        github: 'https://gist.github.com/marcusikegami/04d1f6cbca7a8a1db8e3b5fc8e46dcf7',
-        livelink: 'https://gist.github.com/marcusikegami/04d1f6cbca7a8a1db8e3b5fc8e46dcf7',
+        name: 'Color Flipper',
+        description: 'I built this project for fun, it enables users flip to their preferred color with generated code',
+        github: 'https://gbenga458.github.io/color-flipper/',
         image: '4',
-        uses: 'Javascript, JS Regular Expressions'
+        uses: 'Javascript'
      },
      {
-        name: 'MongoDB Social Network API ',
-        description: 'This project encompasses a rudimentary NoSQL database that utilizes the browsers Fetch API. It uses MongoDB and Mongoose as its ORM. This database is centered around the format of a social network plugin which allows users to create an ID, share thoughts, react to others thoughts, add to/create a friends list.',
-        github: 'https://github.com/marcusikegami/mongodb-social-network-API',
-        livelink: 'https://www.youtube.com/watch?v=X4gDWpk4yQ4',
+        name: 'Technical documentation page',
+        description: 'The website is use for landing page, it make it easier for user to navigate to the pages of their choices',
+        github: ' https://gbenga458.github.io/Technical-documentation-page/',
         image: '5',
-        uses: 'MongoDB, Mongoose, Fetch API'
+        uses: 'HTML and CSS'
      },
      {
-        name: 'E-Commerce Backend Mockup',
-        description: 'This program is a demonstration of a basic website server that enables database manipulation using npm dotenv, express.js, mysql2, and sequelize. This program was designed using RESTful API design and will serve as a proof of knowledge on my personal portfolio.',
-        github: 'https://github.com/marcusikegami/e-commerce-backend-mockup',
-        livelink: 'https://www.youtube.com/watch?v=nFnQ9gipjks&t=70s&ab_channel=mikegami.github',
+        name: 'Product Landing Page',
+        description: 'This product landing page is a web page designed to promote or sell a thrombone',
+        github: 'https://gbenga458.github.io/product-landing-page1/',
         image: '6',
-        uses: 'Express.js, MySQL2, Sequelize, .ENV'
+        uses: 'HTML and CSS'
      },
  ];
 
@@ -65,9 +59,7 @@ function Portfolio() {
                         </h5>
                         <p>{project.description}</p>
                         <div className="br bg-primary width-min p-1">
-                        <a href={project.livelink}  rel="noreferrer noopener" target="_blank" title="Open Live App on Hosted with Heroku">
-                            <img className="icon" src={require('../../assets/open-in-browser.png')} alt="hosted app / youtube link"/>
-                        </a>
+                        
                         <a href={project.github} rel="noreferrer noopener" target="_blank" title="Open GitHub Repo">
                             <img className="icon" src={require('../../assets/github.png')} alt="github link"/>
                         </a>

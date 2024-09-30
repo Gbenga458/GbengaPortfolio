@@ -11,7 +11,7 @@ function Header(props) {
     return (
       <header>
       <div className="container flex-row justify-space-between align-center py-3">
-        <h1 className="page-title text-secondary bg-dark py-2 px-3">Marcus H. Ikegami </h1>
+        <h1 className="page-title text-secondary bg-dark py-2 px-3">Gbenga Busayo </h1>
 
         <ul className="flex-row">
             {categories.map((category) => {

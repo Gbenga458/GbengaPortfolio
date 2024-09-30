@@ -40,8 +40,8 @@ function Contact() {
            
                 <div className="col-9 about">
                     <ul>
-                        <li>hikegami.6@gmail.com</li>
-                        <li>(801) 598-6965</li>
+                        <li>gbengabusayo765@gmail.com</li>
+                        <li>+2348105309866</li>
                         <li>The styling of the form functionality was not implemented because I do not intend to keep the contact form in the finished product. This small contact section will be incorporated into the about after project grading.</li>
                     </ul>
                 </div>
