@@ -3,7 +3,7 @@ import React from "react";
 function About() {
  return (
     <section className="my-3" id="portfolio">
-        
+      
       <div className="flex-row justify-space-between">
       <a  href="https://drive.google.com/file/d/1lfBjaZijOmjz68vrpwqoVkoeF7SYaHA-/view?usp=sharing" target="_blank" rel="noopener noreferrer" >
                 <h5 id="resume" className="text-dark bg-primary p-2 display-inline-block">Resume on Google Docs <img src={require('../../assets/exit-top-right.png')} alt="Link to resume"/> </h5>
